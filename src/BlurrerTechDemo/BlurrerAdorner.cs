@@ -163,7 +163,7 @@ internal class BlurrerAdorner
             var image = new Image
             {
                 Source = drawingImage,
-                Effect = new BlurEffect() { Radius = 20, KernelType = KernelType.Gaussian }
+                //Effect = new BlurEffect() { Radius = 20, KernelType = KernelType.Gaussian }
             };
 
             // Align the image with the top of the bounds of the text geometry
