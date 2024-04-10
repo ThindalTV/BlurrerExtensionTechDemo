@@ -107,8 +107,8 @@ internal class BlurrerAdorner
             {
                 var newSpan = new SnapshotSpan(_textView.TextSnapshot, Span.FromBounds(topEnd, start));
                 notSelectedSpans.Add(newSpan);
-                topEnd = selectedSpan.End.Position;
             }
+            topEnd = selectedSpan.End.Position;
         }
 
         // Add the last not selected span
